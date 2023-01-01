@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6wb1i7g08nsa"
-path="res://.godot/imported/tileset_Dungeon_set_01.png-4d3e3dc442b08d2cc6a720a57c138e41.ctex"
+uid="uid://d3ui2e4flhwlg"
+path="res://.godot/imported/Button_Disabled_01.png-6946048148320f8f4d50b987fc8191ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tile_Sets/Dungeon_set_01/tileset_Dungeon_set_01.png"
-dest_files=["res://.godot/imported/tileset_Dungeon_set_01.png-4d3e3dc442b08d2cc6a720a57c138e41.ctex"]
+source_file="res://Sprites/Spr_Components/Ui_Assets/Button_Disabled_01.png"
+dest_files=["res://.godot/imported/Button_Disabled_01.png-6946048148320f8f4d50b987fc8191ff.ctex"]
 
 [params]
 

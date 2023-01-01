@@ -1,0 +1,13 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://cjlnxhkyqoqca"]
+
+[ext_resource type="Texture2D" uid="uid://dshen6mgsyxlr" path="res://Sprites/Spr_Components/One_Text_Box_Small_01.png" id="1_4ongg"]
+
+[resource]
+texture = ExtResource("1_4ongg")
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 32.0
+margin_bottom = 32.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(0, 0, 96, 96)

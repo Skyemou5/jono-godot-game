@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5wcgh8inbeyw"]
+
+[ext_resource type="Theme" uid="uid://dii3cwuxu5r3x" path="res://assets/main_ui_theme.tres" id="1_j8mvy"]
+
+[node name="Node2d" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 317.0
+offset_bottom = 204.0
+theme = ExtResource("1_j8mvy")
+
+[node name="Button" type="Button" parent="Control"]
+offset_left = 37.0
+offset_top = 27.0
+offset_right = 224.0
+offset_bottom = 109.0
+text = "Play"
+
+[node name="Button2" type="Button" parent="Control"]
+offset_left = 27.0
+offset_top = 138.0
+offset_right = 234.0
+offset_bottom = 212.0
+
+[node name="CheckBox" type="CheckBox" parent="Control"]
+offset_left = 188.0
+offset_top = 51.0
+offset_right = 268.0
+offset_bottom = 131.0

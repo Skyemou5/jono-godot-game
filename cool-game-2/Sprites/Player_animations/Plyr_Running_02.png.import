@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6wb1i7g08nsa"
-path="res://.godot/imported/tileset_Dungeon_set_01.png-4d3e3dc442b08d2cc6a720a57c138e41.ctex"
+uid="uid://ctbu1os2pekwr"
+path="res://.godot/imported/Plyr_Running_02.png-bca0ef928dd151257234bb4bcea93392.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tile_Sets/Dungeon_set_01/tileset_Dungeon_set_01.png"
-dest_files=["res://.godot/imported/tileset_Dungeon_set_01.png-4d3e3dc442b08d2cc6a720a57c138e41.ctex"]
+source_file="res://Sprites/Player_animations/Plyr_Running_02.png"
+dest_files=["res://.godot/imported/Plyr_Running_02.png-bca0ef928dd151257234bb4bcea93392.ctex"]
 
 [params]
 
