@@ -142,42 +142,138 @@ region = Rect2(48, 0, 16, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ggj1c"]
 animations = [{
-"frames": [SubResource("AtlasTexture_w2rm2"), SubResource("AtlasTexture_536cq"), SubResource("AtlasTexture_058hv"), SubResource("AtlasTexture_8ti7f")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w2rm2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_536cq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_058hv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ti7f")
+}],
 "loop": true,
 "name": &"idle_blue",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_662sf"), SubResource("AtlasTexture_dw2e5"), SubResource("AtlasTexture_y6r1w"), SubResource("AtlasTexture_5rlpu")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_662sf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dw2e5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6r1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rlpu")
+}],
 "loop": true,
 "name": &"idle_green",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_s4j6k"), SubResource("AtlasTexture_ryafo"), SubResource("AtlasTexture_vrty6"), SubResource("AtlasTexture_ntihh")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4j6k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryafo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrty6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ntihh")
+}],
 "loop": true,
 "name": &"idle_orange",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_f0lhp"), SubResource("AtlasTexture_r2e4d"), SubResource("AtlasTexture_gua1v"), SubResource("AtlasTexture_tfkd7")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0lhp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2e4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gua1v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfkd7")
+}],
 "loop": true,
 "name": &"idle_pink",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_ekyq0"), SubResource("AtlasTexture_dfdib"), SubResource("AtlasTexture_1xchx"), SubResource("AtlasTexture_gruyi")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ekyq0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dfdib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xchx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gruyi")
+}],
 "loop": true,
 "name": &"run_blue",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_a7yvw"), SubResource("AtlasTexture_332tg"), SubResource("AtlasTexture_f532r"), SubResource("AtlasTexture_i7kej")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a7yvw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_332tg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f532r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7kej")
+}],
 "loop": true,
 "name": &"run_green",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_46qff"), SubResource("AtlasTexture_3u4dx"), SubResource("AtlasTexture_t2thw"), SubResource("AtlasTexture_jn233")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46qff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3u4dx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t2thw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jn233")
+}],
 "loop": true,
 "name": &"run_orange",
 "speed": 5.0
 }, {
-"frames": [SubResource("AtlasTexture_eiuaw"), SubResource("AtlasTexture_gw36v"), SubResource("AtlasTexture_sygbw"), SubResource("AtlasTexture_fi87g")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eiuaw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gw36v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sygbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fi87g")
+}],
 "loop": true,
 "name": &"run_pink",
 "speed": 5.0
@@ -190,6 +286,5 @@ script = ExtResource("1_ckg25")
 shape = SubResource("CapsuleShape2D_0onhv")
 
 [node name="player_sprite" type="AnimatedSprite2D" parent="."]
-frames = SubResource("SpriteFrames_ggj1c")
+sprite_frames = SubResource("SpriteFrames_ggj1c")
 animation = &"run_pink"
-playing = true

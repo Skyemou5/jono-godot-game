@@ -12,6 +12,7 @@ offset_bottom = 204.0
 theme = ExtResource("1_j8mvy")
 
 [node name="Button" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 37.0
 offset_top = 27.0
 offset_right = 224.0
@@ -19,13 +20,15 @@ offset_bottom = 109.0
 text = "Play"
 
 [node name="Button2" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 27.0
 offset_top = 138.0
 offset_right = 234.0
 offset_bottom = 212.0
 
 [node name="CheckBox" type="CheckBox" parent="Control"]
-offset_left = 188.0
-offset_top = 51.0
-offset_right = 268.0
-offset_bottom = 131.0
+layout_mode = 0
+offset_left = 280.0
+offset_top = 49.0
+offset_right = 360.0
+offset_bottom = 129.0
